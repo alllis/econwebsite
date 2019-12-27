@@ -59,3 +59,169 @@ img.resize{
   cursor: pointer;
   margin: 12px 0;
 }
+.btn:hover {background: maroon; color: white}
+
+.instructions{
+  line-height: 20px;
+  outline: 2px solid grey;
+  padding: 5px;
+  margin: 70px;
+  text-align: center;
+}
+
+.container
+{
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid maroon;
+  margin: 70px; 
+}
+
+.container h1
+{
+  text-decoration: underline #2c2c2c;
+  color: maroon;
+}
+
+.container p
+{
+  margin-right: 5%;
+  margin-left: 5%; 
+}
+
+div.button2
+{
+  position: absolute; 
+  right: 0; 
+  width: 200px; 
+  bottom:0;  
+}
+
+.button2
+{
+  position: absolute; 
+  width: 20% ; 
+  height: 10% ;
+  border: 2px solid #2c2c2c; 
+  background-color: white;
+  color: #2c2c2c; 
+  padding: 14px 28px; 
+  font-size: 16px;
+  cursor: point; 
+  display: inline-block; 
+  float: right; 
+  bottom: 0; 
+  right: 0; 
+  margin-right: 6%;
+  margin-bottom: 5%;
+}
+
+.button2:hover {background: maroon; color: white}
+
+
+#videos
+{
+  width: 50%; 
+  height: 50%;
+  background-color: white;
+  margin: auto; 
+}
+
+#first
+{
+  width: 300px; 
+  float: left; 
+  height: 300px; 
+  background-color: white;
+  outline: 2px solid black;
+}
+
+#second
+{
+  width: 300px; 
+  float: right; 
+  height: 300px; 
+  background-color: white;
+  outline: 2px solid black;
+}
+
+.column
+{
+  float: left; 
+  width: 50%; 
+  color: black;
+}
+
+.row::after
+{
+  content: ""; 
+  display: table; 
+  clear: both; 
+}
+
+/* webcam */ 
+#wrap {
+  width: 50%; 
+  margin: 5% auto;
+  text-align: center;
+}
+
+.left { 
+  width: 300px; 
+  height: 300px; 
+  background-color: white;
+  border: 2px solid maroon; 
+  float: left; 
+  margin-left: 10px; 
+}
+
+.right {
+  width: 300px; 
+  height: 300px; 
+  border: 2px solid maroon; 
+  background-color: white;
+  float: right; 
+}
+
+/* task review submission page*/
+.taskoverview
+{
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid maroon;
+  margin: 70px; 
+}
+
+.taskoverview h1 
+{
+  text-decoration: underline #2c2c2c;
+  color: maroon;
+}
+
+.taskoverview p
+{
+  margin-right: 5%;
+  margin-left: 5%; 
+}
+
+.border
+{
+  position: relative; 
+}
+
+.submission-form-text
+{
+  position: absolute; 
+  left: 15%; 
+  text-align: left;
+  width: 70%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  resize: vertical; 
+  background-color: white;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
